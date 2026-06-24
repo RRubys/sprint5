@@ -19,7 +19,7 @@ var (
 type DaySteps struct {
 	Steps                 int           // Количество шагов
 	Duration              time.Duration // Длительность прогулки
-	personaldata.Personal               //
+	personaldata.Personal               // Информация о пользователе
 }
 
 func (ds *DaySteps) Parse(datastring string) (err error) {
